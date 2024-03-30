@@ -11,6 +11,7 @@ mongoose.connect("mongodb+srv://saara:" + process.env.MONGO_ATLAS_PW + "@cluster
 
 
 app.use(morgan('dev'));
+app.use('/uploads', express.static('uploads')); // to make the upload folder publicly available
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
