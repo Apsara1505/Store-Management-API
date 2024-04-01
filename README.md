@@ -19,9 +19,7 @@ To get started with the project, follow these instructions:
 - Create a .env file in the root directory of the project and specify the following environment variables:
   ##### PORT=3000
   ##### MONGO_URI= your_mongodb_uri
-  ##### JWT_SECRET= your_jwt_secret
-  ##### Replace your_jwt_secret with a secret key for JWT token generation.
-
+  
 - Run the server:
   ##### npm start
 
