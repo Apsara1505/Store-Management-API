@@ -3,8 +3,10 @@ const morgan = require('morgan');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+
 const productRoutes = require('./api/routes/products.js');
 const orderRoutes = require('./api/routes/orders.js');
+const userRoutes = require('./api/routes/user.js')
 
 
 mongoose.connect("mongodb+srv://saara:" + process.env.MONGO_ATLAS_PW + "@cluster0.kdvfuyt.mongodb.net/");
@@ -31,6 +33,7 @@ app.use((req, res, next) => {
  */
 app.use('/products', productRoutes);
 app.use('/orders', orderRoutes);
+app.use('/user', userRoutes);
 
 app.use((req, res, next) => {
     const error = new Error('Not Found');
