@@ -4,11 +4,11 @@ This project is a RESTful API built with Node.js and MongoDB to manage products,
 ## Getting Started
 To get started with the project, follow these instructions:
 
-### Prerequisites
+## Prerequisites
 - Node.js and npm installed on your machine
 - MongoDB installed and running locally or accessible remotely
 
-### Installation
+## Installation
 - Clone the repository to your local machine:
   ##### git clone https://github.com/your-username/shop-api.git
 - Install dependencies:
@@ -20,12 +20,12 @@ To get started with the project, follow these instructions:
   ##### PORT=3000
   ##### MONGO_URI= your_mongodb_uri
   ##### JWT_SECRET= your_jwt_secret
-##### Replace your_jwt_secret with a secret key for JWT token generation.
+  ##### Replace your_jwt_secret with a secret key for JWT token generation.
 
 - Run the server:
-##### npm start
+  ##### npm start
 
-### Usage
+## Usage
 Once the server is running, you can access the API endpoints using tools like Postman. Here are the available endpoints:
 
 - /products: Endpoint to manage products (GET, POST)
