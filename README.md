@@ -10,7 +10,7 @@ To get started with the project, follow these instructions:
 
 ## Installation
 - Clone the repository to your local machine:
-  ##### git clone paste the URL
+  ##### git clone
 - Install dependencies:
   ##### cd folderName
   ##### npm install
