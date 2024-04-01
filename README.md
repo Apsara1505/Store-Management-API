@@ -10,17 +10,17 @@ To get started with the project, follow these instructions:
 
 ### Installation
 - Clone the repository to your local machine:
-  git clone https://github.com/your-username/shop-api.git
+  ##### git clone https://github.com/your-username/shop-api.git
 - Install dependencies:
-cd <folderName>
-npm install
+  ##### cd <folderName>
+  ##### npm install
 
 - Configure environment variables:
-Create a .env file in the root directory of the project and specify the following environment variables:
-PORT=3000
-MONGO_URI= <your_mongodb_uri>
-JWT_SECRET= <your_jwt_secret>
-Replace your_jwt_secret with a secret key for JWT token generation.
+- Create a .env file in the root directory of the project and specify the following environment variables:
+  PORT=3000
+  MONGO_URI= <your_mongodb_uri>
+  JWT_SECRET= <your_jwt_secret>
+##### Replace your_jwt_secret with a secret key for JWT token generation.
 
 - Run the server:
 npm start
